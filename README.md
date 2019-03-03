@@ -1,20 +1,30 @@
 # RGBHV_RGBS_CONV
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 
+  
+  
+***
 # 概要
-**準備中**  
 RGBHVまたはRGBSを使用するディスプレイ信号線の、コネクタ変換、信号変換、信号分岐を行うボードです。  
 プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。  
 
 ![Rev4 converter pcb_photo](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev4_pcb_photo.jpg)  
 
+  
+  
 ***
 # Release note
-## Rev 0.4
-初公開。  
-コネクタ位置は要調整。  
-J4は動作未確認。  
+## Rev 0.4A release candidate
+2019/MAR/04  
+コネクタ位置を調整。
+動作確認中。
 
+## Rev 0.4
+2019/MAR/04  
+初公開。X1用のDIN6ピンコネクタは動作未確認です。他は動作確認済み。
+
+  
+  
 ***
 # 作り方
 ## 手順
@@ -43,6 +53,8 @@ J4は動作未確認。
 | N/A | XOR gate logic ic (74HC86 or compatible e.g.4070) | install to U1 |
 | N/A | LM1881N | install to U2 |
 
+  
+  
 ***
 # デザインと使い方解説
 ## 構成
@@ -80,11 +92,15 @@ LM1881Nを使用してCSYNC信号からVSYNC信号を作ります。
 この回路を有効にする場合は、LM1881Nに必要な直流を給電して、J10をジャンパON、J14をジャンパOFFにしてください。標準では電圧は5Vです。  
 可変抵抗は、信号が安定する位置に都度調整してください。  
 
+  
+  
 ## PCB Artwork
 Rev0.4b  
 ![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
 ![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
 
+  
+  
 ## 動作確認済機種
 ### Video signal src.
 - IBM-PC compatible (VGA)  
@@ -96,9 +112,18 @@ Rev0.4b
 - GBS-8200 (RGBS)
 - Some VGA monitors (DB15/VGA)
 
+  
+  
 ***
 # Lastest Gerber
+## 動作（ほぼ）確認済
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
 
+## 動作未確認
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
+
+  
+  
 ***
 # Changes Log  
 | Revision | Date | Description |
@@ -106,6 +131,8 @@ Rev0.4b
 |0.4 |2019/03/04 | first release. (experimental) |
 |0.1～0.3 | N/A | private |
 
+  
+  
 ***
 # ライセンス
 クリエイティブコモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)
