@@ -1,18 +1,18 @@
 # RGBHV_RGBS_CONV
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 
-## 概要
+# 概要
 
 ![Rev4 converter pcb_photo](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev4_pcb_photo.jpg)  
 
-## Release note
-### Rev 0.4
+# Release note
+## Rev 0.4
 初公開。  
 コネクタ位置は要調整。  
 J4は動作未確認。
 
-## 作り方
-### 部品表(BOM)
+# 作り方
+## 部品表(BOM)
 | Ref | Name | Qty./Note |
 |:---|:---|:---|
 |J2 |VGA connector | N/A |
@@ -34,23 +34,23 @@ J4は動作未確認。
 | N/A | LM1881N | install to U2 |
 
 
-## 使い方
+# 使い方
 
-##Misc. resource
-###PCB Artwork
+# Misc. resource  
+## PCB Artwork
 Rev0.4b  
 ![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
 ![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
 
-## Lastest Gerber
+# Lastest Gerber
 
-## Changes Log  
+# Changes Log  
 | Revision | Date | Description |
 |:---|:---|:---|
 |0.4 |2019/03/04 | first release. (experimental) |
 |0.1～0.3 | N/A | private |
 
-## ライセンス
+# ライセンス
 クリエイティブコモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)
 
 https://creativecommons.org/licenses/by-sa/4.0/  
