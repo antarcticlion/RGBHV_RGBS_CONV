@@ -2,7 +2,7 @@
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 
 # 概要
-**準備中**
+**準備中**  
 RGBHVまたはRGBSを使用するディスプレイ信号線の、コネクタ変換、信号変換、信号分岐を行うボードです。  
 プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。  
 
