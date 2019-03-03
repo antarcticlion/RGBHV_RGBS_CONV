@@ -108,7 +108,7 @@ Rev0.4b
 - PC-8801mk2MR/FH (Digital RGB/Analog RGB DB15)  
 - PC-9801VX41 (Digital RGB/Analog RGB DB15)  
 - X1 Turbo model40 (Digital RGB)  
-- Arcade-Game PCBs (クイズココロジー2／上海2／子育てクイズ マイエンジェル）(RGBS)  
+- Arcade-Game PCBs (クイズココロジー2／上海2／子育てクイズ マイエンジェル）(RGBS → 同期分離 → RGBHV)  
 ### Video signal dst.
 - GBS-8200 (RGBS)
 - Some VGA monitors (DB15/VGA)
