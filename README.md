@@ -120,7 +120,7 @@ Rev0.4b
 ## 動作（ほぼ）確認済
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
 
-## 動作未確認
+## 動作確認中
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04A.zip  
 
   
