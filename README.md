@@ -9,6 +9,7 @@ RGBHVまたはRGBSを使用するディスプレイ信号線の、コネクタ�
 プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。  
 Rev0.4基板は動作確認済みです。コネクタ位置に若干の難があります。
 Rev0.4A基板は現在動作確認中です。全配線を再配線していますのでエンバグの可能性があります。
+GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像ソースを繋ぐ事を出発点にしていますので、XHコネクタを多用しており、これらのケーブルは使用者各自が自作する事を前提にしています。
 
 ![Rev4 converter pcb_photo](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev4_pcb_photo.jpg)  
 
@@ -96,14 +97,10 @@ LM1881Nを使用してCSYNC信号からVSYNC信号を作ります。
 この回路を有効にする場合は、LM1881Nに必要な直流を給電して、J10をジャンパON、J14をジャンパOFFにしてください。標準では電圧は5Vです。  
 可変抵抗は、信号が安定する位置に都度調整してください。  
 
-  
-  
 ## PCB Artwork
 Rev0.4b  
 ![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
 ![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
-
-  
   
 ## 動作確認済機種
 ### Video signal src.
