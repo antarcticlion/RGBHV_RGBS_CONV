@@ -120,7 +120,7 @@ Rev0.4b
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
 
 ## 動作未確認
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04A.zip  
 
   
   
@@ -128,6 +128,7 @@ https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.
 # Changes Log  
 | Revision | Date | Description |
 |:---|:---|:---|
+|0.4A release candidate |2019/03/04 | コネクタ位置調整、DCジャック追加 |
 |0.4 |2019/03/04 | first release. (experimental) |
 |0.1～0.3 | N/A | private |
 
