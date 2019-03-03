@@ -2,6 +2,8 @@
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 
 # 概要
+RGBHVまたはRGBSを使用するディスプレイ信号線の、コネクタ変換、信号変換、信号分岐を行うボードです。
+プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。
 
 ![Rev4 converter pcb_photo](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev4_pcb_photo.jpg)  
 
@@ -41,6 +43,17 @@ J4は動作未確認。
 Rev0.4b  
 ![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
 ![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
+
+## 動作確認済機種
+### Video signal src.
+1 IBM-PC compatible (VGA)  
+1 PC-8801mk2MR/FH (Digital RGB/Analog RGB DB15)  
+1 PC-9801VX41 (Digital RGB/Analog RGB DB15)  
+1 X1 Turbo model40 (Digital RGB)  
+1 Arcade-Game PCBs (クイズココロジー2／上海2／子育てクイズ マイエンジェル）(RGBS)  
+### Video signal dst.
+1 GBS-8200 (RGBS)
+1 Some VGA monitors (DB15/VGA)
 
 # Lastest Gerber
 
