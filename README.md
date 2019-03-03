@@ -1,12 +1,9 @@
 # RGBHV_RGBS_CONV
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 
+## 概要
 
 ![Rev4 converter pcb_photo](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev4_pcb_photo.jpg)  
-![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
-![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
-
-## 概要
 
 ## Release note
 ### Rev 0.4
@@ -38,6 +35,12 @@ J4は動作未確認。
 
 
 ## 使い方
+
+##Misc. resource
+###PCB Artwork
+Rev0.4b  
+![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
+![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
 
 ## Lastest Gerber
 
