@@ -98,7 +98,7 @@ LM1881Nを使用してCSYNC信号からVSYNC信号を作ります。
 可変抵抗は、信号が安定する位置に都度調整してください。  
 
 ## PCB Artwork
-Rev0.4b  
+Rev0.4a  
 ![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
 ![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
   
