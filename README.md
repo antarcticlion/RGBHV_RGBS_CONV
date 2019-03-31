@@ -25,6 +25,8 @@ GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像�
 ## Rev 0.4
 2019/MAR/04  
 初公開。X1用のDIN6ピンコネクタは動作未確認です。他は動作確認済み。
+2019/MAR/31
+X1用のDIN6ピンコネクタ動作確認
 
   
   
@@ -117,7 +119,7 @@ Rev0.4a
   
 ***
 # Lastest Gerber
-## 動作（ほぼ）確認済
+## 動作確認済
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
 
 ## 動作確認中
