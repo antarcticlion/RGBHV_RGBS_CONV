@@ -106,6 +106,7 @@ Rev0.4a
 - PC-8801mk2MR/FH (Digital RGB/Analog RGB DA15)  
 - PC-9801VX41 (Digital RGB/Analog RGB DA15)  
 - X1 Turbo model40 (Digital RGB)  
+- X1 Turbo model30 (Digital RGB)  
 - Arcade-Game PCBs (クイズココロジー2／上海2／子育てクイズ マイエンジェル）
 ### Video signal dst.
 - GBS-8200 (RGBS)
