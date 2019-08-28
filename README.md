@@ -9,9 +9,8 @@ RGBHVまたはRGBSを使用するディスプレイ信号線の、コネクタ�
 プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。  
 GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像ソースを繋ぐ事を出発点にしていますので、XHコネクタを多用しており、これらのケーブルは使用者各自が自作する事を前提にしています。  
 
-※写真はRev4
 
-![Rev4 converter pcb_photo](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev4_pcb_photo.jpg)  
+![Rev5a converter pcb_photo with GBS-8200](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev5a_photo.jpg)  
 
   
   
