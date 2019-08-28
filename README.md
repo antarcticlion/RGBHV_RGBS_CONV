@@ -12,6 +12,11 @@ GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像�
 
 ![Rev5a converter pcb_photo with GBS-8200](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev5a_photo.jpg)  
 
+
+## PCB Artwork
+Rev0.5a  
+![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_omote.jpg)  
+![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_ura.jpg)  
   
   
 ***
@@ -93,11 +98,6 @@ J6コネクタには、リボンケーブルを使用し、DA15のIDCコネク�
 ### 同期信号合成回路
 XORゲートICを使用してHSYNC信号とVSYNC信号からCSYNC信号を作ります。標準では使用するICは74HC86ですが、74LS86、4070でも動作確認が取れています。
 4070を使用すると、5Vより高目の電圧でも動作するので、GBS-8200/8220と安全に電源をカスケード接続する事ができるのでオススメです。標準では電圧は5Vです。  
-
-## PCB Artwork
-Rev0.5a  
-![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_omote.jpg)  
-![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_ura.jpg)  
   
 ## 動作確認済機種
 ### Video signal src.
