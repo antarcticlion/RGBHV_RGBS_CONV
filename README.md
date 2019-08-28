@@ -96,9 +96,9 @@ XORゲートICを使用してHSYNC信号とVSYNC信号からCSYNC信号を作り
 4070を使用すると、5Vより高目の電圧でも動作するので、GBS-8200/8220と安全に電源をカスケード接続する事ができるのでオススメです。標準では電圧は5Vです。  
 
 ## PCB Artwork
-Rev0.4a  
-![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5omote.jpg)  
-![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5ura.jpg)  
+Rev0.5a  
+![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_omote.jpg)  
+![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_ura.jpg)  
   
 ## 動作確認済機種
 ### Video signal src.
