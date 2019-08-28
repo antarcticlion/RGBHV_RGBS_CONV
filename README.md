@@ -7,9 +7,9 @@ Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 # 概要
 RGBHVまたはRGBSを使用するディスプレイ信号線の、コネクタ変換、信号変換、信号分岐を行うボードです。  
 プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。  
-Rev0.4基板は動作確認済みです。コネクタ位置に若干の難があります。  
-Rev0.4A基板は現在動作確認中です。全配線を再配線していますのでエンバグの可能性があります。  
 GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像ソースを繋ぐ事を出発点にしていますので、XHコネクタを多用しており、これらのケーブルは使用者各自が自作する事を前提にしています。  
+
+※現在説明がRev5A用の記述になっていませんので、ご注意ください。
 
 ![Rev4 converter pcb_photo](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev4_pcb_photo.jpg)  
 
@@ -17,6 +17,11 @@ GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像�
   
 ***
 # Release note
+## Rev 0.5A release
+2019/AUG/28  
+SYNCセパレータを削除。
+エッジ端のDA15コネクタは動作未確認。
+
 ## Rev 0.4A release candidate
 2019/MAR/04  
 コネクタ位置を調整。
@@ -33,6 +38,8 @@ X1用のDIN6ピンコネクタ動作確認
 ***
 # 作り方
 ## 手順
+※現在説明がRev5A用の記述になっていません。LM1881は使わなくなりました。
+
 1. 部品表に従い、各部品をはんだ付けしてください。  
 1. 向きがある部品は写真を参照してください。  
 1. とりあえずJ14とJ13にジャンパを付けてください。
@@ -63,6 +70,9 @@ X1用のDIN6ピンコネクタ動作確認
 ***
 # デザインと使い方解説
 ## 構成
+
+※現在説明がRev5A用の記述になっていません。同期信号分離回路は削除されました。
+
 ボードはアナログRGBS信号コネクタ、アナログRGBHV信号コネクタ、デジタルRGBHV信号コネクタ、デジタルアナログ変換回路、同期信号合成回路、同期信号分離回路の６パートで構成されます。  
 ![Descroption](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/part_dsc.jpg)  
 
@@ -119,11 +129,11 @@ Rev0.4a
   
 ***
 # Lastest Gerber
-## 動作確認済
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05A.zip
 
-## 動作確認中
+## Arcive
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04A.zip  
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
 
   
   
@@ -131,12 +141,13 @@ https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04A
 # Changes Log  
 | Revision | Date | Description |
 |:---|:---|:---|
+|0.5A release |2019/08/28 | あまり使わないコネクタと、動悸分離回路を削除、RGBHV DA15のエッジ端コネクタを追加 |
 |0.4A release candidate |2019/03/04 | コネクタ位置調整、DCジャック追加 |
 |0.4 |2019/03/04 | first release. (experimental) |
 |0.1～0.3 | N/A | private |
 
-  
-  
+
+
 ***
 # ライセンス
 クリエイティブコモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)
