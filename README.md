@@ -121,6 +121,10 @@ XORゲートICを使用してHSYNC信号とVSYNC信号からCSYNC信号を作り
   
 ***
 # Lastest Gerber
+## .5B PreView
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05B.zip
+
+## .5A
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05A.zip
 
 ## Arcive
