@@ -21,6 +21,11 @@ Rev0.5a
   
 ***
 # Release note
+## Rev 0.5B pre-release
+2020/MAR/25  
+RGBS OUTのJ15をVRで電圧降下させるパターンを追加。
+検証済み。2KRの多回転VRを使用し、GBS8200/8220のR34が1KRの場合はVRの値を1KRに、R34が2.2KRの場合は1.4KRに設定して、現物合わせで微調整してください。
+
 ## Rev 0.5A release
 2019/AUG/28  
 あまり使わないコネクタ、SYNCセパレータを削除。
