@@ -21,6 +21,11 @@ Rev0.5a
   
 ***
 # Release note
+## Rev 0.5B release
+2020/JUN/10  
+5BのKicadソースコードをアップロード
+CC BY-SA 4.0とMITライセンスのデュアルライセンス化
+
 ## Rev 0.5B pre-release
 2020/MAR/25  
 RGBS OUTのJ15をVRで電圧降下させるパターンを追加。
@@ -64,6 +69,8 @@ X1用のDIN6ピンコネクタ動作確認
 |R1-R3 | Resistor 150Ω 1/6W | 3pcs |
 |C1 | Capacitor 0.1uF CC or MLCC | 1pcs |
 |U1 | 14pin DIP IC SOCKET 300mil | N/A |
+|RV1 | 3pin Multiturn trimmer potentiometer 2KR (e.g.	Nidec Copal Electronics CT94EW202) | N/A |
+|RV2 | --- | N/A |
 | N/A | XOR gate logic ic (74HC86 or pin compatible e.g. 4070) | install to U1 |
 
 
@@ -73,8 +80,6 @@ X1用のDIN6ピンコネクタ動作確認
 # デザインと使い方解説
 ## 構成
 
-※現在説明がRev5A用の記述になっていません。同期信号分離回路は削除されました。
-
 ボードはアナログRGBS信号コネクタ、アナログRGBHV信号コネクタ、デジタルRGBHV信号コネクタ、デジタルアナログ変換回路、同期信号合成回路の5パートで構成されます。  
 ![Descroption](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/part_dsc.jpg)  
 
@@ -83,7 +88,7 @@ RGBの信号はデジタルRGBHV部とその他で、同期信号はアナログ
 
 ### アナログRGBS信号コネクタ
 8ピンのXHコネクタが２つ。入出力両方に使います。  
-同期分離は削除されたため、同期分離には外部回路を経由する必要があります。
+J15はVRでCSYNC信号の電圧を下げており、J16はそのまま出力しています。
 
 ### アナログRGBHV信号コネクタ
 8ピンのXHコネクタが2つ、IDC DA15コネクタ用16ピンヘッダ、エッジ端DA15コネクタ、PCBマウントDA15コネクタ、VGA DE15コネクタの、合計6つのコネクタがあり、入出力両方に使います。   
@@ -113,6 +118,7 @@ XORゲートICを使用してHSYNC信号とVSYNC信号からCSYNC信号を作り
 - X1 Turbo model40 (Digital RGB)  
 - X1 Turbo model30 (Digital RGB)  
 - Arcade-Game PCBs (クイズココロジー2／上海2／子育てクイズ マイエンジェル）
+- 上記の他、PC8001シリーズ(Digital RGB)で動作報告をいただいております。ありがとうございます。
 ### Video signal dst.
 - GBS-8200 (RGBS)
 - Some VGA monitors (DE15/VGA)
@@ -121,13 +127,11 @@ XORゲートICを使用してHSYNC信号とVSYNC信号からCSYNC信号を作り
   
 ***
 # Lastest Gerber
-## .5B PreView
+## .5B 
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05B.zip
 
-## .5A
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05A.zip
-
 ## Arcive
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05A.zip
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04A.zip  
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
 
@@ -137,6 +141,7 @@ https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.
 # Changes Log  
 | Revision | Date | Description |
 |:---|:---|:---|
+|0.5B release |2020/06/10 | RGBS出力に多回転VRを追加し、出力レベルを下げられるコネクタを用意。(GBS8200/8220のCSYNC信号不安定対策) |
 |0.5A release |2019/08/28 | あまり使わないコネクタと、動悸分離回路を削除、RGBHV DA15のエッジ端コネクタを追加 |
 |0.4A release candidate |2019/03/04 | コネクタ位置調整、DCジャック追加 |
 |0.4 |2019/03/04 | first release. (experimental) |
@@ -146,7 +151,21 @@ https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.
 
 ***
 # ライセンス
+
+※Rev.5Bより、CC BY-SA 4.0とMITライセンスのデュアルライセンスとします。
+
 クリエイティブコモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)
 
 https://creativecommons.org/licenses/by-sa/4.0/  
 https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+---
+
+Copyright 2019-2020 @antarcticlion
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
