@@ -14,9 +14,9 @@ GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像�
 
 
 ## PCB Artwork
-Rev0.5a  
-![Rev5 converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_omote.jpg)  
-![Rev5 converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5a_ura.jpg)  
+Rev0.5b  
+![Rev5b converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5b_omote.png)  
+![Rev5b converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/pcb_art_rev5b_ura.png)  
   
   
 ***
