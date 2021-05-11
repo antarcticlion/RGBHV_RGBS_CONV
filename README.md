@@ -13,11 +13,13 @@ Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 ***
 # 概要
 RGBHVまたはRGBSを使用するディスプレイ信号線の、コネクタ変換、信号変換、信号分岐を行うボードです。  
-プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。  
-GBS-8200等のアップスキャンコンバータにRGBHV 15KHz/24KHzの映像ソースを繋ぐ事を出発点にしていますので、XHコネクタを多用しており、これらのケーブルは使用者各自が自作する事を前提にしています。  
+プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。
 
-
+Rev0.5A
 ![Rev5a converter pcb_photo with GBS-8200](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/rev5a_photo.jpg)  
+Rev1.0B
+![Rev10b converter pcb_photo 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/REV10B1.jpg)  
+![Rev10b converter pcb_photo 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/REV10B2.jpg)  
 
 
 ## PCB Artwork
