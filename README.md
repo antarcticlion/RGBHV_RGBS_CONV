@@ -1,3 +1,9 @@
+# Note for Rev1.0B MAY/11/2021
+このノートはとりいそぎ書いており、正式なdocを書くときに消します。
+Rev1.0Bのソース、ガーバーをupしました。
+対応ロジックは以前より減って、CMOS3.3V駆動可能な74HC86/74AC86/74AHC86のいずれかになります。
+レギュレータは3.3Vで50mAくらい出る物を使ってください。HT7533-1あたりが安くてオススメです。
+
 # RGBHV_RGBS_CONV
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 
