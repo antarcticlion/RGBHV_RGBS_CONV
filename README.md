@@ -3,6 +3,7 @@
 Rev1.0Bのソース、ガーバーをupしました。
 対応ロジックは以前より減って、CMOS3.3V駆動可能な74HC86/74AC86/74AHC86のいずれかになります。
 レギュレータは3.3Vで50mAくらい出る物を使ってください。HT7533-1あたりが安くてオススメです。
+構成部品が結構変わっています。作り方は書き終えるのを待ってください。
 
 # RGBHV_RGBS_CONV
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
@@ -119,7 +120,9 @@ XORゲートICを使用してHSYNC信号とVSYNC信号からCSYNC信号を作り
 ## 動作確認済機種
 ### Video signal src.
 - IBM-PC compatible (VGA)  
+- PC-8801mk2 (Digital RGB)  
 - PC-8801mk2MR/FH (Digital RGB/Analog RGB DA15)  
+- PC-9801DA/U2 (Analog RGB DA15)  
 - PC-9801VX41 (Digital RGB/Analog RGB DA15)  
 - X1 Turbo model40 (Digital RGB)  
 - X1 Turbo model30 (Digital RGB)  
@@ -133,10 +136,11 @@ XORゲートICを使用してHSYNC信号とVSYNC信号からCSYNC信号を作り
   
 ***
 # Lastest Gerber
-## .5B 
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05B.zip
+## 1.0B 
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV10B2.zip
 
 ## Arcive
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05B.zip
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05A.zip
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04A.zip  
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
