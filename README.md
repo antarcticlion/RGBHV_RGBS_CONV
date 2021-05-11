@@ -9,10 +9,10 @@ Rev1.0Bのソース、ガーバーをupしました。
 Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 
 ***
-[概要](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki)
-[作り方](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/How-to-make)
-[デザインと説明](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Design)
-[リリースノート](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Release-note)
+[概要](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki)  
+[作り方](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/How-to-make)  
+[デザインと説明](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Design)  
+[リリースノート](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Release-note)  
 
 ***
 # Lastest Gerber
