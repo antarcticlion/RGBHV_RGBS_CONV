@@ -28,6 +28,12 @@ Rev0.5b
   
 ***
 # Release note
+## Rev 1.0B release
+2021/MAY/11  
+3.3Vレギュレータによる電源安定化
+3.3V駆動の5VトレラントCMOSロジックでGBS出力の無調整化(SN74AHC86推奨)
+GBS8200のCSYNC入力ラインに100Ωのプルダウン抵抗を付けるパターンをなんとなく追加(GBS無改造で同様の効果)
+
 ## Rev 0.5B release
 2020/JUN/10  
 5BのKicadソースコードをアップロード
