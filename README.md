@@ -70,21 +70,25 @@ X1用のDIN6ピンコネクタ動作確認
 1. 向きがある部品は写真を参照してください。  
 
 ## 部品表(BOM)
+## 部品表(BOM)
 | Ref | Name | Qty./Note |
 |:---|:---|:---|
 |J2 |DE15 VGA connector | N/A |
 |J3 |DA15 connector | N/A |
 |J1 |DIN 8pin connector (e.g.HOSIDEN TCS4480-0140577) | N/A |
 |J4 |DIN 6pin connector (e.g.HOSIDEN TCS4460-0140577) | N/A |
-|J5,J7,J9,J11,J15,J16 |JST B8B-XH-A connector | 6pcs |
-|J17,J18 |JST B2B-XH-A connector | 2pcs |
-|J6 |16pin 2.54mm pitch BOX-HEADER | 1pcs |
-|R1-R3 | Resistor 150Ω 1/6W | 3pcs |
-|C1 | Capacitor 0.1uF CC or MLCC | 1pcs |
+|J5,J7,J9,J11,J15 |JST B8B-XH-A connector | 5pcs |
+|J16 |JST S8B-XH-A connector | N/A |
+|J17 |JST S2B-XH-A connector | N/A |
+|J6 |16pin 2.54mm pitch IDC BOX-HEADER | N/A |
+|J8 |10pin 2.54mm pitch IDC BOX-HEADER | N/A |
+|R1-R3,R5,R6,R9 | Resistor 150Ω 1/4W | 6pcs |
+|R8 | Resistor 10KΩ 1/4W | N/A |
+|C1,C3,C5 | Capacitor 0.1uF CC or MLCC | 3pcs |
+|C4,C6 | Capacitor 10uF CC or MLCC | 2pcs |
 |U1 | 14pin DIP IC SOCKET 300mil | N/A |
-|RV1 | 3pin Multiturn trimmer potentiometer 2KR (e.g.	Nidec Copal Electronics CT94EW202) | N/A |
-|RV2 | --- | N/A |
-| N/A | XOR gate logic ic (74HC86 or pin compatible e.g. 4070) | install to U1 |
+|U3 | HT7533-1 3.3V LDO | N/A |
+| N/A | CMOS XOR gate logic ic (74HC86/74AC86/74AHC86) | install to U1 |
 
 
   
