@@ -20,7 +20,7 @@ Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
 ***
 # Lastest Gerber
 ## 1.0C 
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV10C.zip
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10C.zip
 
 ## Arcive
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV10B2.zip
