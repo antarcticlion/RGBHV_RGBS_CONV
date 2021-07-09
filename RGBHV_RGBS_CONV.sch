@@ -1014,12 +1014,6 @@ Wire Wire Line
 	10800 2350 11100 2350
 Wire Wire Line
 	12350 2150 12050 2150
-Text GLabel 12050 2150 0    50   Input ~ 0
-VSYNC
-Text GLabel 12050 2250 0    50   Input ~ 0
-AUDIO_L
-Text GLabel 12050 2350 0    50   Input ~ 0
-AUDIO_R
 Wire Wire Line
 	12050 2250 12350 2250
 Wire Wire Line
@@ -1030,12 +1024,6 @@ Wire Wire Line
 	13650 2100 13950 2100
 Wire Wire Line
 	13950 2200 13650 2200
-Text GLabel 13650 2200 0    50   Input ~ 0
-VSYNC
-Text GLabel 13650 2300 0    50   Input ~ 0
-AUDIO_L
-Text GLabel 13650 2400 0    50   Input ~ 0
-AUDIO_R
 Wire Wire Line
 	13650 2300 13950 2300
 Wire Wire Line
@@ -1458,4 +1446,42 @@ F 3 "" H 11550 5750 50  0001 C CNN
 	1    11550 5750
 	0    1    1    0   
 $EndComp
+$Comp
+L Regulator_Linear:LM1117-3.3 U4
+U 1 1 60C724BE
+P 7650 8650
+F 0 "U4" H 7650 8892 50  0000 C CNN
+F 1 "IN_OUT_GND_3.3V" H 7650 8801 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 8650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 7650 8650 50  0001 C CNN
+	1    7650 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 7750 7300 8650
+Wire Wire Line
+	8000 7750 8000 8650
+Wire Wire Line
+	8000 8650 7950 8650
+Wire Wire Line
+	7350 8650 7300 8650
+$Comp
+L power:GND #PWR0108
+U 1 1 60CD679E
+P 7650 9050
+F 0 "#PWR0108" H 7650 8800 50  0001 C CNN
+F 1 "GND" H 7655 8877 50  0000 C CNN
+F 2 "" H 7650 9050 50  0001 C CNN
+F 3 "" H 7650 9050 50  0001 C CNN
+	1    7650 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 8950 7650 9050
+NoConn ~ 12050 2150
+NoConn ~ 12050 2250
+NoConn ~ 12050 2350
+NoConn ~ 13650 2200
+NoConn ~ 13650 2300
+NoConn ~ 13650 2400
 $EndSCHEMATC
