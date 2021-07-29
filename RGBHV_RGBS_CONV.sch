@@ -451,12 +451,12 @@ $EndComp
 $Comp
 L Connector:DIN-8 J1
 U 1 1 5C43E8B2
-P 2200 2050
-F 0 "J1" H 2050 2350 50  0000 C CNN
-F 1 "DIGITAL RGB" H 2500 2350 50  0000 C CNN
-F 2 "ryuk_lib:DIN 8 PCB" H 2200 2050 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2200 2050 50  0001 C CNN
-	1    2200 2050
+P 2150 2100
+F 0 "J1" H 2000 2400 50  0000 C CNN
+F 1 "DIGITAL RGB" H 2450 2400 50  0000 C CNN
+F 2 "ryuk_lib:DIN 8 PCB" H 2150 2100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 2150 2100 50  0001 C CNN
+	1    2150 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -473,17 +473,17 @@ F 3 "" H 3300 2200 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	1850 2150 1900 2150
+	1800 2200 1850 2200
 Wire Wire Line
-	2500 2150 2550 2150
+	2450 2200 2500 2200
 Wire Wire Line
-	2200 2350 2200 2400
+	2150 2400 2150 2450
 Wire Wire Line
-	1900 1950 1850 1950
+	1850 2000 1800 2000
 Wire Wire Line
-	2500 1950 2550 1950
-NoConn ~ 1800 2050
-NoConn ~ 2600 2050
+	2450 2000 2500 2000
+NoConn ~ 1750 2100
+NoConn ~ 2550 2100
 Wire Wire Line
 	12050 1750 12350 1750
 Wire Wire Line
@@ -493,15 +493,15 @@ Wire Wire Line
 Connection ~ 12250 2600
 Wire Wire Line
 	12050 2050 12350 2050
-Text GLabel 2550 2150 2    50   Input ~ 0
+Text GLabel 2500 2200 2    50   Input ~ 0
 DIGITAL_G
-Text GLabel 1850 2150 0    50   Input ~ 0
+Text GLabel 1800 2200 0    50   Input ~ 0
 DIGITAL_R
-Text GLabel 2200 2400 3    50   Input ~ 0
+Text GLabel 2150 2450 3    50   Input ~ 0
 DIGITAL_B
-Text GLabel 1850 1950 0    50   Input ~ 0
+Text GLabel 1800 2000 0    50   Input ~ 0
 HSYNC
-Text GLabel 2550 1950 2    50   Input ~ 0
+Text GLabel 2500 2000 2    50   Input ~ 0
 VSYNC
 Text GLabel 3500 2000 0    50   Input ~ 0
 DIGITAL_R
@@ -572,16 +572,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR01
 U 1 1 5CC0401E
-P 2200 1700
-F 0 "#PWR01" H 2200 1450 50  0001 C CNN
-F 1 "GND" H 2205 1527 50  0000 C CNN
-F 2 "" H 2200 1700 50  0001 C CNN
-F 3 "" H 2200 1700 50  0001 C CNN
-	1    2200 1700
+P 2150 1750
+F 0 "#PWR01" H 2150 1500 50  0001 C CNN
+F 1 "GND" H 2155 1577 50  0000 C CNN
+F 2 "" H 2150 1750 50  0001 C CNN
+F 3 "" H 2150 1750 50  0001 C CNN
+	1    2150 1750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2200 1700 2200 1750
+	2150 1750 2150 1800
 $Comp
 L power:GND #PWR06
 U 1 1 631185BA
@@ -977,9 +977,9 @@ Connection ~ 12700 6350
 Wire Wire Line
 	12700 6350 12950 6350
 Wire Wire Line
-	2500 2050 2600 2050
+	2450 2100 2550 2100
 Wire Wire Line
-	1800 2050 1900 2050
+	1750 2100 1850 2100
 Text GLabel 5700 2250 2    50   Input ~ 0
 AUDIO_L
 Text GLabel 5700 2350 2    50   Input ~ 0
