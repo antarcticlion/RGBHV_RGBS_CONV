@@ -1,3 +1,6 @@
+## Note for Rev1.0D AUG/24/2021
+RGBHV_GBS_CABLEサブフォルダに、ケーブル中継型のcsync合成小基板を追加しました。
+
 ## Note for Rev1.0D JUL/29/2021
 DIN8コネクタのバグFIX版をupしました。
 
