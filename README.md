@@ -1,29 +1,11 @@
-## Note for Rev1.0D AUG/24/2021
-RGBHV_GBS_CABLEサブフォルダに、ケーブル中継型のcsync合成小基板を追加しました。
-
-## Note for Rev1.0D JUL/29/2021
-DIN8コネクタのバグFIX版をupしました。
-
-## Note for Rev1.0C JUL/21/2021
-DIN8コネクタが裏表逆になってます。修正中。修正前にDIN8を使うにはパターンカットしてジャンパするか、裏面にコネクタを付けてください。
-
-## Note for Rev1.0C JUL/10/2021
-RGBSへ音声ラインを引いたら、GBSとの接続で不具合を出したのでカットしました。
-
-## Note for Rev1.0B MAY/11/2021
-このノートはとりいそぎ書いており、そのうち消します。
-Rev1.0Bのソース、ガーバーをupしました。
-対応ロジックは以前より減って、CMOS3.3V駆動可能な74HC86/74AC86/74AHC86のいずれかになります。
-レギュレータは3.3Vで50mAくらい出る物を使ってください。とりあえずピン配列の違う２つを用意しときました。どっちか適当に使ってください。HT7533-1あたりが安くてオススメです。
-構成部品が結構変わっています。写真はそのうち入れ替えます。諸々のdocはwikiに移しました。
-
-# RGBHV_RGBS_CONV
-Display/Monitor video signal converter PCB (RGBHV &lt;--> RGBS ./ etc. )
+# RGB MULTI CONV
+Display/Monitor video signal converter PCB for Japanese Retro PC (RGBHV &lt;--> RGBS ./ etc. )
 
 ***
 [概要](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki)  
 [作り方](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/How-to-make)  
 [デザインと説明](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Design)  
+[その他](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Miscellaneous)  
 [リリースノート](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Release-note)  
 
 ***
