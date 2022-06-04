@@ -40,6 +40,13 @@ https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.
 ***
 # ライセンス
 
+2022/06/04 
+Rev1.0D以降のライセンスを CERN Open Hardware Licence Version 2 - Weakly Reciprocal に変更します。
+以前のバージョンのアーカイブは近日消します。
+
+https://spdx.org/licenses/CERN-OHL-W-2.0.html
+---
+
 ※Rev.5Bより、CC BY-SA 4.0とMITライセンスのデュアルライセンスとします。
 
 クリエイティブコモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)
