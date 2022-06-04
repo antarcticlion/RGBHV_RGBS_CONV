@@ -45,6 +45,9 @@ Rev1.0D以降のライセンスを CERN Open Hardware Licence Version 2 - Weakly
 以前のバージョンのアーカイブは近日消します。
 
 https://spdx.org/licenses/CERN-OHL-W-2.0.html
+PDF https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/cern_ohl_w_v2.pdf
+HOWTO https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/cern_ohl_w_v2_howto.pdf
+
 ---
 
 ※Rev.5Bより、CC BY-SA 4.0とMITライセンスのデュアルライセンスとします。
