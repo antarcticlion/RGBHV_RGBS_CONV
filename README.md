@@ -14,12 +14,7 @@ Display/Monitor video signal converter PCB for Japanese Retro PC (RGBHV &lt;--> 
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10D.zip
 
 ## Arcive
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10C.zip
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV10B2.zip
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05B.zip
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV05A.zip
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04A.zip  
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_04.zip  
+
 
   
 ***
@@ -48,23 +43,3 @@ Rev1.0D以降のライセンスを CERN Open Hardware Licence Version 2 - Weakly
 https://spdx.org/licenses/CERN-OHL-W-2.0.html
 PDF https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/cern_ohl_w_v2.pdf
 HOWTO https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/cern_ohl_w_v2_howto.pdf
-
----
-
-※Rev.5Bより、CC BY-SA 4.0とMITライセンスのデュアルライセンスとします。
-
-クリエイティブコモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)
-
-https://creativecommons.org/licenses/by-sa/4.0/  
-https://creativecommons.org/licenses/by-sa/4.0/legalcode
-
----
-
-Copyright 2021 @antarcticlion
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
