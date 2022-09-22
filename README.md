@@ -9,6 +9,18 @@ Display/Monitor video signal converter PCB for Japanese Retro PC (RGBHV &lt;--> 
 [リリースノート](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Release-note)  
 
 ***
+最新版 Rev1.0D
+![Rev1.0D parts side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev1.0D/MULTICONV10D_1.png) 
+![Rev1.0D solder side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev1.0D/MULTICONV10D_2.png) 
+
+***
+# note
+
+2022/09/23 テスト中の Rev1.5 をリリース候補版としてアップしました。
+![Rev1.5 parts side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev.1.5/MULTICONV15_1.png) 
+![Rev1.5 solder side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev.1.5/MULTICONV15_2.png) 
+
+***
 # Lastest Gerber
 ## 1.0D  
 https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10D.zip
@@ -21,6 +33,7 @@ https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10D
 # Changes Log  
 | Revision | Date | Description |
 |:---|:---|:---|
+|1.5 release candidate |2022/09/23 | DE15/DA15を残し他のコネクタは小基板化、EL1883用パターンを追加、各種切り替えスイッチを付ける |
 ||2022/09/23 | 最新のガーバーファイルを残して古いものは削除 |
 |1.0D release |2021/07/29 | DIN8コネクタのフットプリントが裏表逆になっていたのをFIX |
 |1.0C release |2021/07/09 | RGBSへの音声パターンカット、レギュレータの足配置バリエーションの追加 |
