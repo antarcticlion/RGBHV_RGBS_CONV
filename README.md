@@ -1,5 +1,35 @@
 # RGB MULTI CONV
+
 Display/Monitor video signal converter PCB for Japanese Retro PC (RGBHV &lt;--> RGBS ./ etc. )
+
+##概要
+
+主に日本製のレトロPCのRGB信号を、コネクタ変換・信号変換・分岐を行うボードです。
+Rev1.5でサブボードをスタックして扱うコネクタを増やせるようにしています。
+プロジェクトにはKiCad PCB 5.0用のプロジェクトファイルとガーバーが含まれます。
+
+##外観
+![Rev15 converter pcb_photo 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/images/Rev.1.5/Rev1.5_photo02.jpg)  
+![Rev15 converter pcb_photo 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/images/Rev.1.5/Rev1.5_photo01.jpg)  
+
+## 動作確認済機種
+### Video signal src.
+- IBM-PC compatible (VGA)  
+- PC-8801mk2 (Digital RGB 8p)  
+- PC-8801mk2MR/FH (Digital RGB 8p/Analog RGB DA15)  
+- PC-9801DA/U2 (Analog RGB DA15)  
+- PC-9801VX41 (Digital RGB 8p/Analog RGB DA15)  
+- X1 Turbo model40 (Digital RGB 8p)  
+- X1 Turbo model30 (Digital RGB 6p)  
+- MZ-700 (Digital RGB 8p)  
+- FM-7 (Digital RGB 8p)  
+- FM-new7 (Digital RGB 8p)  
+- BASIC Master Level 3 (Digital RGB 8p)  
+- Arcade-Game PCBs (クイズココロジー2／上海2／子育てクイズ マイエンジェル）(信号分岐、コネクタ変換)
+- 上記の他、PC8001シリーズ(Digital RGB)、PC6001mk2(8色のみ)、SMC777(デジタルRGB)で動作報告をいただいております。ありがとうございます。
+### Video signal dst.
+- GBS-8200/GBS-8220/HD9800V/HD-VC9900(RGBS)
+- Some VGA monitors (DE15/VGA)
 
 ***
 [概要](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki)  
@@ -9,23 +39,22 @@ Display/Monitor video signal converter PCB for Japanese Retro PC (RGBHV &lt;--> 
 [リリースノート](https://github.com/antarcticlion/RGBHV_RGBS_CONV/wiki/Release-note)  
 
 ***
-最新版 Rev1.0D
-![Rev1.0D parts side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev1.0D/MULTICONV10D_1.png) 
-![Rev1.0D solder side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev1.0D/MULTICONV10D_2.png) 
-
-***
-# note
-
-2022/09/23 テスト中の Rev1.5 をリリース候補版としてアップしました。
-![Rev1.5 parts side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev.1.5/MULTICONV15_1.png) 
-![Rev1.5 solder side](https://github.com/antarcticlion/RGBHV_RGBS_CONV/raw/master/images/Rev.1.5/MULTICONV15_2.png) 
+最新版 Rev1.5A
+![Rev15A converter pcb_art 1](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/images/Rev.1.5/Rev1.5A_SIDE_A.png)  
+![Rev15A converter pcb_art 2](https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/images/Rev.1.5/Rev1.5A_SIDE_B.png)  
 
 ***
 # Lastest Gerber
-## 1.0D  
-https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10D.zip
+
+### 1.5A  
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_15A.zip メインボード
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_EXTRA1_15.zip　デジタルRGBサブボード
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_stack_15.zip　GBSスタック用サブボード
 
 ## Arcive
+
+### 1.0D  
+https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10D.zip
 
 
   
@@ -33,6 +62,7 @@ https://github.com/antarcticlion/RGBHV_RGBS_CONV/blob/master/RGBHV_RGBS_CONV_10D
 # Changes Log  
 | Revision | Date | Description |
 |:---|:---|:---|
+|1.5A release |2022/10/03 | スイッチのスルーホールサイズを変更 |
 |1.5 release candidate |2022/09/23 | DE15/DA15を残し他のコネクタは小基板化、EL1883用パターンを追加、各種切り替えスイッチを付ける |
 ||2022/09/23 | 最新のガーバーファイルを残して古いものは削除 |
 |1.0D release |2021/07/29 | DIN8コネクタのフットプリントが裏表逆になっていたのをFIX |
