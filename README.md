@@ -26,7 +26,7 @@ Rev1.5でサブボードをスタックして扱うコネクタを増やせる�
 - FM-new7 (Digital RGB 8p)  
 - BASIC Master Level 3 (Digital RGB 8p)  
 - Arcade-Game PCBs (クイズココロジー2／上海2／子育てクイズ マイエンジェル）(信号分岐、コネクタ変換)
-- 上記の他、PC8001シリーズ(Digital RGB)、PC6001mk2(8色のみ)、SMC777(デジタルRGB)で動作報告をいただいております。ありがとうございます。
+- 上記の他、PC8001シリーズ(Digital RGB)で動作報告をいただいております。ありがとうございます。
 ### Video signal dst.
 - GBS-8200/GBS-8220/HD9800V/HD-VC9900(RGBS)
 - Some VGA monitors (DE15/VGA)
